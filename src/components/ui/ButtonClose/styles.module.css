@@ -1,0 +1,11 @@
+.button {
+    width: 22px;
+    height: 22px;
+    background-image: url('../../../assets/icons/close-black.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}

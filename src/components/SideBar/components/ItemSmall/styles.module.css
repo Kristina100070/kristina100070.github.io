@@ -1,0 +1,66 @@
+.item {
+    display: flex;
+    margin-bottom: 40px;
+}
+.item__image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 12px;
+}
+.item__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0 0 15px;
+    max-width: 180px;
+}
+.item__wrapper {
+    display: flex;
+    align-items: center;
+}
+.item__button {
+    border: none;
+    background-color: transparent;
+    width: 21px;
+    height: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.item__button_plus {
+    background-image: url('../../../../assets/icons/plus.svg');
+    margin-right: 25px;
+}
+.item__button_minus {
+    background-image: url('../../../../assets/icons/minus.svg');
+   
+}
+.item__button:disabled {
+    opacity: 0.5;
+}
+.item__count {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0 18px;
+}
+.item__delete {
+    background-color: transparent;
+    border: none;
+    background-image: url('../../../../assets/icons/close-grey.svg');
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .item {
+        justify-content: space-between;
+    }
+}
