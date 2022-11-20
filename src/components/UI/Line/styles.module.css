@@ -1,0 +1,19 @@
+.active {
+    background-color: grey;
+}
+.input {
+    background-color: transparent;
+    border: none;
+}
+.button__delete {
+    background-image: url('../../../assets/delete.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+}
+.button__delete:hover {
+    opacity: 0.6;
+}
